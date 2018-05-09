@@ -1,0 +1,5 @@
+set -tmpdir "F:/EmbeddedHardware2018/LED_MOVER/xst/projnav.tmp"
+set -xsthdpdir "F:/EmbeddedHardware2018/LED_MOVER/xst"
+elaborate
+-ifn clkdevider.prj
+-ifmt mixed

@@ -1,0 +1,467 @@
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "F:/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-5 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-5 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+xst -intstyle ise -ifn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.xst" -ofn "C:/Users/Heat/Desktop/EmbeddedHardware2018/LED_MOVER/LED_mover.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_mover.ucf -p xc3s2000-fg456-4 LED_mover.ngc LED_mover.ngd  
+map -intstyle ise -p xc3s2000-fg456-4 -cm area -ir off -pr off -c 100 -o LED_mover_map.ncd LED_mover.ngd LED_mover.pcf 
+par -w -intstyle ise -ol high -t 1 LED_mover_map.ncd LED_mover.ncd LED_mover.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf -ucf LED_mover.ucf 
+bitgen -intstyle ise -f LED_mover.ut LED_mover.ncd 

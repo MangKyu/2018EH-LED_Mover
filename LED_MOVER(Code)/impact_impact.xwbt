@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\Heat\Desktop\EmbeddedHardware2018\LED_MOVER\impact.xsl
+OUTFILE=C:\Users\Heat\Desktop\EmbeddedHardware2018\LED_MOVER\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\Users\Heat\Desktop\EmbeddedHardware2018\LED_MOVER
+LICENSE=iMPACT
+USER_INFO=iMPACT

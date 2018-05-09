@@ -1,0 +1,4 @@
+vhdl work "DFF.vhd"
+vhdl work "REG.vhd"
+vhdl work "clkdivider.vhd"
+vhdl work "LED_mover.vhd"

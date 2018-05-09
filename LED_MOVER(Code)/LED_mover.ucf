@@ -1,0 +1,44 @@
+// INPUT PUSH BUTTON
+NET reset LOC = H5;
+#NET push LOC = G5;
+#NET led_reset LOC = G3;
+
+NET clk LOC = AB12;
+
+#// INPUT DIP SWITCH
+NET dip_input<0> LOC = C2;
+NET dip_input<1> LOC = D1 | CLOCK_DEDICATED_ROUTE = FALSE;
+NET dip_input<2> LOC = E4 | CLOCK_DEDICATED_ROUTE = FALSE;
+#NET dip_input<3> LOC = D4;
+#NET dip_input<4> LOC = F5;
+#NET dip_input<5> LOC = F2;
+#NET dip_input<6> LOC = G1;
+#NET dip_input<7> LOC = H1;
+
+//OUTPUT LED BUTTON
+NET led_output<7> LOC = N3;
+NET led_output<6> LOC = N2;
+NET led_output<5> LOC = N1;
+NET led_output<4> LOC = M6;
+NET led_output<3> LOC = M5;
+NET led_output<2> LOC = M4;
+NET led_output<1> LOC = M3;
+NET led_output<0> LOC = M2;
+
+NET led_output<15> LOC = C22;
+NET led_output<14> LOC = L21;
+NET led_output<13> LOC = L22;
+NET led_output<12> LOC = W16;
+NET led_output<11> LOC = V14;
+NET led_output<10> LOC = V13;
+NET led_output<9> LOC = V12;
+NET led_output<8> LOC = Y12;
+
+NET led_output<23> LOC = Y1;
+NET led_output<22> LOC = W4;
+NET led_output<21> LOC = W3;
+NET led_output<20> LOC = W2;
+NET led_output<19> LOC = U2;
+NET led_output<18> LOC = T3;
+NET led_output<17> LOC = H2;
+NET led_output<16> LOC = L2;

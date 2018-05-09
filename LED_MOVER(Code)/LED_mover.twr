@@ -1,0 +1,189 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml LED_mover.twx LED_mover.ncd -o LED_mover.twr LED_mover.pcf
+-ucf LED_mover.ucf
+
+Design file:              LED_mover.ncd
+Physical constraint file: LED_mover.pcf
+Device,package,speed:     xc3s2000,fg456,-4 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+--------------+------------+------------------+--------+
+              | clk (edge) |                  | Clock  |
+Destination   |   to PAD   |Internal Clock(s) | Phase  |
+--------------+------------+------------------+--------+
+led_output<0> |   16.861(R)|clk_BUFGP         |   0.000|
+led_output<1> |   17.148(R)|clk_BUFGP         |   0.000|
+led_output<2> |   17.044(R)|clk_BUFGP         |   0.000|
+led_output<3> |   17.871(R)|clk_BUFGP         |   0.000|
+led_output<4> |   17.724(R)|clk_BUFGP         |   0.000|
+led_output<5> |   17.802(R)|clk_BUFGP         |   0.000|
+led_output<6> |   17.594(R)|clk_BUFGP         |   0.000|
+led_output<7> |   17.959(R)|clk_BUFGP         |   0.000|
+led_output<8> |   23.586(R)|clk_BUFGP         |   0.000|
+led_output<9> |   17.156(R)|clk_BUFGP         |   0.000|
+led_output<10>|   20.930(R)|clk_BUFGP         |   0.000|
+led_output<11>|   21.091(R)|clk_BUFGP         |   0.000|
+led_output<12>|   21.722(R)|clk_BUFGP         |   0.000|
+led_output<13>|   19.663(R)|clk_BUFGP         |   0.000|
+led_output<14>|   19.947(R)|clk_BUFGP         |   0.000|
+led_output<15>|   20.449(R)|clk_BUFGP         |   0.000|
+led_output<16>|   17.254(R)|clk_BUFGP         |   0.000|
+led_output<17>|   18.298(R)|clk_BUFGP         |   0.000|
+led_output<18>|   18.578(R)|clk_BUFGP         |   0.000|
+led_output<19>|   18.679(R)|clk_BUFGP         |   0.000|
+led_output<20>|   18.498(R)|clk_BUFGP         |   0.000|
+led_output<21>|   19.733(R)|clk_BUFGP         |   0.000|
+led_output<22>|   21.362(R)|clk_BUFGP         |   0.000|
+led_output<23>|   22.860(R)|clk_BUFGP         |   0.000|
+--------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    6.399|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock dip_input<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+dip_input<1>   |         |         |    1.017|    2.346|
+dip_input<2>   |         |         |    1.020|    2.346|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock dip_input<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+dip_input<1>   |         |         |    0.650|    2.346|
+dip_input<2>   |         |         |    0.653|    2.346|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+dip_input<0>   |led_output<0>  |   19.833|
+dip_input<0>   |led_output<1>  |   20.120|
+dip_input<0>   |led_output<2>  |   20.016|
+dip_input<0>   |led_output<3>  |   20.843|
+dip_input<0>   |led_output<4>  |   20.696|
+dip_input<0>   |led_output<5>  |   20.774|
+dip_input<0>   |led_output<6>  |   20.566|
+dip_input<0>   |led_output<7>  |   20.931|
+dip_input<0>   |led_output<8>  |   26.558|
+dip_input<0>   |led_output<9>  |   20.128|
+dip_input<0>   |led_output<10> |   23.902|
+dip_input<0>   |led_output<11> |   24.063|
+dip_input<0>   |led_output<12> |   24.694|
+dip_input<0>   |led_output<13> |   22.635|
+dip_input<0>   |led_output<14> |   22.919|
+dip_input<0>   |led_output<15> |   23.421|
+dip_input<0>   |led_output<16> |   20.226|
+dip_input<0>   |led_output<17> |   21.270|
+dip_input<0>   |led_output<18> |   21.550|
+dip_input<0>   |led_output<19> |   21.651|
+dip_input<0>   |led_output<20> |   21.470|
+dip_input<0>   |led_output<21> |   22.705|
+dip_input<0>   |led_output<22> |   24.334|
+dip_input<0>   |led_output<23> |   25.832|
+dip_input<1>   |led_output<0>  |   18.604|
+dip_input<1>   |led_output<1>  |   18.891|
+dip_input<1>   |led_output<2>  |   18.787|
+dip_input<1>   |led_output<3>  |   19.614|
+dip_input<1>   |led_output<4>  |   19.467|
+dip_input<1>   |led_output<5>  |   19.545|
+dip_input<1>   |led_output<6>  |   19.337|
+dip_input<1>   |led_output<7>  |   19.702|
+dip_input<1>   |led_output<8>  |   25.329|
+dip_input<1>   |led_output<9>  |   18.899|
+dip_input<1>   |led_output<10> |   22.673|
+dip_input<1>   |led_output<11> |   22.834|
+dip_input<1>   |led_output<12> |   23.465|
+dip_input<1>   |led_output<13> |   21.406|
+dip_input<1>   |led_output<14> |   21.690|
+dip_input<1>   |led_output<15> |   22.192|
+dip_input<1>   |led_output<16> |   18.997|
+dip_input<1>   |led_output<17> |   20.041|
+dip_input<1>   |led_output<18> |   20.321|
+dip_input<1>   |led_output<19> |   20.422|
+dip_input<1>   |led_output<20> |   20.241|
+dip_input<1>   |led_output<21> |   21.476|
+dip_input<1>   |led_output<22> |   23.105|
+dip_input<1>   |led_output<23> |   24.603|
+dip_input<2>   |led_output<0>  |   18.031|
+dip_input<2>   |led_output<1>  |   18.318|
+dip_input<2>   |led_output<2>  |   18.214|
+dip_input<2>   |led_output<3>  |   19.041|
+dip_input<2>   |led_output<4>  |   18.894|
+dip_input<2>   |led_output<5>  |   18.972|
+dip_input<2>   |led_output<6>  |   18.764|
+dip_input<2>   |led_output<7>  |   19.129|
+dip_input<2>   |led_output<8>  |   24.756|
+dip_input<2>   |led_output<9>  |   18.326|
+dip_input<2>   |led_output<10> |   22.100|
+dip_input<2>   |led_output<11> |   22.261|
+dip_input<2>   |led_output<12> |   22.892|
+dip_input<2>   |led_output<13> |   20.833|
+dip_input<2>   |led_output<14> |   21.117|
+dip_input<2>   |led_output<15> |   21.619|
+dip_input<2>   |led_output<16> |   18.424|
+dip_input<2>   |led_output<17> |   19.468|
+dip_input<2>   |led_output<18> |   19.748|
+dip_input<2>   |led_output<19> |   19.849|
+dip_input<2>   |led_output<20> |   19.668|
+dip_input<2>   |led_output<21> |   20.903|
+dip_input<2>   |led_output<22> |   22.532|
+dip_input<2>   |led_output<23> |   24.030|
+---------------+---------------+---------+
+
+
+Analysis completed Sat May 05 17:17:03 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 185 MB
+
+
+

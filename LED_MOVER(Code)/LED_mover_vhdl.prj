@@ -1,0 +1,4 @@
+vhdl work "C:\Users\Heat\Desktop\EmbeddedHardware2018\LED_MOVER\DFF.vhd"
+vhdl work "C:\Users\Heat\Desktop\EmbeddedHardware2018\LED_MOVER\REG.vhd"
+vhdl work "C:\Users\Heat\Desktop\EmbeddedHardware2018\LED_MOVER\clkdivider.vhd"
+vhdl work "C:\Users\Heat\Desktop\EmbeddedHardware2018\LED_MOVER\LED_mover.vhd"

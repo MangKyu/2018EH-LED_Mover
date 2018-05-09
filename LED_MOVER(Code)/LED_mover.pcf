@@ -1,0 +1,41 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat May 05 17:16:18 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "AB12" LEVEL 1;
+COMP "led_output<10>" LOCATE = SITE "V13" LEVEL 1;
+COMP "led_output<11>" LOCATE = SITE "V14" LEVEL 1;
+COMP "led_output<0>" LOCATE = SITE "M2" LEVEL 1;
+COMP "led_output<20>" LOCATE = SITE "W2" LEVEL 1;
+COMP "led_output<1>" LOCATE = SITE "M3" LEVEL 1;
+COMP "led_output<12>" LOCATE = SITE "W16" LEVEL 1;
+COMP "led_output<2>" LOCATE = SITE "M4" LEVEL 1;
+COMP "led_output<21>" LOCATE = SITE "W3" LEVEL 1;
+COMP "led_output<13>" LOCATE = SITE "L22" LEVEL 1;
+COMP "led_output<3>" LOCATE = SITE "M5" LEVEL 1;
+COMP "led_output<22>" LOCATE = SITE "W4" LEVEL 1;
+COMP "led_output<14>" LOCATE = SITE "L21" LEVEL 1;
+COMP "led_output<4>" LOCATE = SITE "M6" LEVEL 1;
+COMP "led_output<23>" LOCATE = SITE "Y1" LEVEL 1;
+COMP "led_output<15>" LOCATE = SITE "C22" LEVEL 1;
+COMP "led_output<5>" LOCATE = SITE "N1" LEVEL 1;
+COMP "led_output<16>" LOCATE = SITE "L2" LEVEL 1;
+COMP "led_output<6>" LOCATE = SITE "N2" LEVEL 1;
+COMP "led_output<17>" LOCATE = SITE "H2" LEVEL 1;
+COMP "led_output<7>" LOCATE = SITE "N3" LEVEL 1;
+COMP "led_output<18>" LOCATE = SITE "T3" LEVEL 1;
+COMP "dip_input<0>" LOCATE = SITE "C2" LEVEL 1;
+COMP "reset" LOCATE = SITE "H5" LEVEL 1;
+COMP "led_output<8>" LOCATE = SITE "Y12" LEVEL 1;
+COMP "led_output<19>" LOCATE = SITE "U2" LEVEL 1;
+COMP "dip_input<1>" LOCATE = SITE "D1" LEVEL 1;
+PIN dip_input<1>_pin<0> = BEL "dip_input<1>" PINNAME PAD;
+PIN "dip_input<1>_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "led_output<9>" LOCATE = SITE "V12" LEVEL 1;
+COMP "dip_input<2>" LOCATE = SITE "E4" LEVEL 1;
+PIN dip_input<2>_pin<0> = BEL "dip_input<2>" PINNAME PAD;
+PIN "dip_input<2>_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
